@@ -22,9 +22,6 @@ $(document).ready(function($) {
             navHeight = $('.navbar').height();
             topSection.css('height', windowHeight);
             fullImageBg.css('height', windowHeight - navHeight);
-            console.log('height=', windowHeight - navHeight);
-            console.log('windowHeight', windowHeight);
-            console.log('navHeight', navHeight);
     });
 
     /* ==============================================
